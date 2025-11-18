@@ -1,0 +1,1594 @@
+@import "tailwindcss";
+
+/* Generated Font Face Declarations */
+
+@font-face {
+  font-family: '210--b-OTF';
+  src: url('./fonts/210 골목길OTF B.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '210--l-OTF';
+  src: url('./fonts/210 골목길OTF L.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '210--r-OTF';
+  src: url('./fonts/210 골목길OTF R.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '210--r-OTF';
+  src: url('./fonts/210 팅커벨OTF R.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '210-b-Regular';
+  src: url('./fonts/210 에브리바디B.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '210-chungchunsidae-r-Regular';
+  src: url('./fonts/210 Chungchunsidae R.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '210-l-Regular';
+  src: url('./fonts/210 에브리바디L.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '210-mutjinueonuenal-r-Regular';
+  src: url('./fonts/210 Mutjinueonuenal R.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '210-omnigothic-030-Regular';
+  src: url('./fonts/210 OmniGothic 030.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '210-r-Regular';
+  src: url('./fonts/210 밤의해변R.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '210-r-Regular';
+  src: url('./fonts/210 에브리바디R.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '210-r-Regular';
+  src: url('./fonts/210 직장인의한마디R.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '210-yangmalgumung-r-Regular';
+  src: url('./fonts/210 Yangmalgumung R.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'academy-engraved-let-fonts-Regular';
+  src: url('./fonts/Academy Engraved LET Fonts.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'andale-mono-Regular';
+  src: url('./fonts/Andale Mono.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'apple-chancery-Regular';
+  src: url('./fonts/Apple Chancery.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'applegothic-Regular';
+  src: url('./fonts/AppleGothic.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'applemyungjo-Regular';
+  src: url('./fonts/AppleMyungjo.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'arial-Regular';
+  src: url('./fonts/Arial.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'arial-Black';
+  src: url('./fonts/Arial Black.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'arial-Bold';
+  src: url('./fonts/Arial Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'arial-Bold Italic';
+  src: url('./fonts/Arial Bold Italic.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'arial-Bold Italic Narrow';
+  src: url('./fonts/Arial Narrow Bold Italic.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'arial-Bold Narrow';
+  src: url('./fonts/Arial Narrow Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'arial-Bold Rounded';
+  src: url('./fonts/Arial Rounded Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'arial-Italic';
+  src: url('./fonts/Arial Italic.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'arial-Italic Narrow';
+  src: url('./fonts/Arial Narrow Italic.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'arial-Narrow';
+  src: url('./fonts/Arial Narrow.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'arial-unicode-Regular';
+  src: url('./fonts/Arial Unicode.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'aritadotumkr-Bold';
+  src: url('./fonts/AritaDotumKR-Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'aritadotumkr-Light';
+  src: url('./fonts/AritaDotumKR-Light.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'aritadotumkr-Medium';
+  src: url('./fonts/AritaDotumKR-Medium.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'aritadotumkr-Thin';
+  src: url('./fonts/AritaDotumKR-Thin.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'aritadotumkrsemi-Bold SemiBold';
+  src: url('./fonts/AritaDotumKR-SemiBold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ayuthaya-Regular';
+  src: url('./fonts/Ayuthaya.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'bigcaslon-Regular';
+  src: url('./fonts/BigCaslon.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'bmdohyeon-ttf';
+  src: url('./fonts/BMDOHYEON_ttf.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'bmhanna11yrs-ttf';
+  src: url('./fonts/BMHANNA_11yrs_ttf.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'bmjua-ttf';
+  src: url('./fonts/BMJUA_ttf.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'bodoni-Ornaments';
+  src: url('./fonts/Bodoni Ornaments.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'bodoni-72-book-Smallcaps';
+  src: url('./fonts/Bodoni 72 Smallcaps Book.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'bradley-hand-Bold';
+  src: url('./fonts/Bradley Hand Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'brush-Script';
+  src: url('./fonts/Brush Script.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'cafedeparis-Script';
+  src: url('./fonts/CafedeparisScript.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'cafedeparissans-Regular';
+  src: url('./fonts/CafeDeParisSans.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'chalkduster-Regular';
+  src: url('./fonts/Chalkduster.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'chosunnm-Regular';
+  src: url('./fonts/ChosunNm.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'comic-sans-ms-Regular';
+  src: url('./fonts/Comic Sans MS.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'comic-sans-ms-Bold';
+  src: url('./fonts/Comic Sans MS Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'courier-new-Regular';
+  src: url('./fonts/Courier New.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'courier-new-Bold';
+  src: url('./fonts/Courier New Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'courier-new-Bold Italic';
+  src: url('./fonts/Courier New Bold Italic.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'courier-new-Italic';
+  src: url('./fonts/Courier New Italic.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'creattion-demo-Regular';
+  src: url('./fonts/Creattion Demo.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'din-alternate-Bold';
+  src: url('./fonts/DIN Alternate Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'din-condensed-Bold';
+  src: url('./fonts/DIN Condensed Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'diwan-thuluth-Regular';
+  src: url('./fonts/Diwan Thuluth.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'farisi-Regular';
+  src: url('./fonts/Farisi.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'georgia-Regular';
+  src: url('./fonts/Georgia.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'georgia-Bold';
+  src: url('./fonts/Georgia Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'georgia-Bold Italic';
+  src: url('./fonts/Georgia Bold Italic.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'georgia-Italic';
+  src: url('./fonts/Georgia Italic.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'gurmukhi-Regular';
+  src: url('./fonts/Gurmukhi.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'hakgyoansimjiugaer-Regular';
+  src: url('./fonts/HakgyoansimJiugaeR.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'hakgyoansimjiugaer-OTF';
+  src: url('./fonts/HakgyoansimJiugaeOTFR.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'herculanum-Regular';
+  src: url('./fonts/Herculanum.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'hoefler-text-Ornaments';
+  src: url('./fonts/Hoefler Text Ornaments.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'impact-Regular';
+  src: url('./fonts/Impact.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'khmer-sangam-mn-Regular';
+  src: url('./fonts/Khmer Sangam MN.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'kokonor-Regular';
+  src: url('./fonts/Kokonor.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'krungthep-Regular';
+  src: url('./fonts/Krungthep.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'lao-sangam-mn-Regular';
+  src: url('./fonts/Lao Sangam MN.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'luminari-Regular';
+  src: url('./fonts/Luminari.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'maplestory-Bold';
+  src: url('./fonts/Maplestory Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'maplestory-Bold OTF';
+  src: url('./fonts/Maplestory OTF Bold.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'maplestory-Light';
+  src: url('./fonts/Maplestory Light.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'maplestory-Light OTF';
+  src: url('./fonts/Maplestory OTF Light.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'microsoft-sans-serif-Regular';
+  src: url('./fonts/Microsoft Sans Serif.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'mishafi-Regular';
+  src: url('./fonts/Mishafi.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'mishafi-gold-Regular';
+  src: url('./fonts/Mishafi Gold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nisc18030-Regular';
+  src: url('./fonts/NISC18030.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansadlamregular-Regular';
+  src: url('./fonts/NotoSansAdlam-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansavestanregular-Regular';
+  src: url('./fonts/NotoSansAvestan-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansbamumregular-Regular';
+  src: url('./fonts/NotoSansBamum-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansbassavahregular-Regular';
+  src: url('./fonts/NotoSansBassaVah-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansbatakregular-Regular';
+  src: url('./fonts/NotoSansBatak-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansbhaiksukiregular-Regular';
+  src: url('./fonts/NotoSansBhaiksuki-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansbrahmiregular-Regular';
+  src: url('./fonts/NotoSansBrahmi-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansbugineseregular-Regular';
+  src: url('./fonts/NotoSansBuginese-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansbuhidregular-Regular';
+  src: url('./fonts/NotoSansBuhid-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanscanadianaboriginalregular-Regular';
+  src: url('./fonts/NotoSansCanadianAboriginal-Regular.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanscarianregular-Regular';
+  src: url('./fonts/NotoSansCarian-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanscaucasianalbanianregular-Regular';
+  src: url('./fonts/NotoSansCaucasianAlbanian-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanschakmaregular-Regular';
+  src: url('./fonts/NotoSansChakma-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanschamregular-Regular';
+  src: url('./fonts/NotoSansCham-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanscopticregular-Regular';
+  src: url('./fonts/NotoSansCoptic-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanscuneiformregular-Regular';
+  src: url('./fonts/NotoSansCuneiform-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanscypriotregular-Regular';
+  src: url('./fonts/NotoSansCypriot-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansduployanregular-Regular';
+  src: url('./fonts/NotoSansDuployan-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansegyptianhieroglyphsregular-Regular';
+  src: url('./fonts/NotoSansEgyptianHieroglyphs-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanselbasanregular-Regular';
+  src: url('./fonts/NotoSansElbasan-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansglagoliticregular-Regular';
+  src: url('./fonts/NotoSansGlagolitic-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansgothicregular-Regular';
+  src: url('./fonts/NotoSansGothic-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansgunjalagondiregular-Regular';
+  src: url('./fonts/NotoSansGunjalaGondi-Regular.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanshanifirohingyaregular-Regular';
+  src: url('./fonts/NotoSansHanifiRohingya-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanshanunooregular-Regular';
+  src: url('./fonts/NotoSansHanunoo-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanshatranregular-Regular';
+  src: url('./fonts/NotoSansHatran-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansimperialaramaicregular-Regular';
+  src: url('./fonts/NotoSansImperialAramaic-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansinionalpahlaviregular-Script';
+  src: url('./fonts/NotoSansInscriptionalPahlavi-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansinionalparthianregular-Script';
+  src: url('./fonts/NotoSansInscriptionalParthian-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansjavaneseregular-Regular';
+  src: url('./fonts/NotoSansJavanese-Regular.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanskaithiregular-Regular';
+  src: url('./fonts/NotoSansKaithi-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanskayahliregular-Regular';
+  src: url('./fonts/NotoSansKayahLi-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanskharoshthiregular-Regular';
+  src: url('./fonts/NotoSansKharoshthi-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanskhojkiregular-Regular';
+  src: url('./fonts/NotoSansKhojki-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanskhudawadiregular-Regular';
+  src: url('./fonts/NotoSansKhudawadi-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanslepcharegular-Regular';
+  src: url('./fonts/NotoSansLepcha-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanslimburegular-Regular';
+  src: url('./fonts/NotoSansLimbu-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanslineararegular-Regular';
+  src: url('./fonts/NotoSansLinearA-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanslinearbregular-Regular';
+  src: url('./fonts/NotoSansLinearB-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanslisuregular-Regular';
+  src: url('./fonts/NotoSansLisu-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanslycianregular-Regular';
+  src: url('./fonts/NotoSansLycian-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanslydianregular-Regular';
+  src: url('./fonts/NotoSansLydian-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansmahajaniregular-Regular';
+  src: url('./fonts/NotoSansMahajani-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansmandaicregular-Regular';
+  src: url('./fonts/NotoSansMandaic-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansmanichaeanregular-Regular';
+  src: url('./fonts/NotoSansManichaean-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansmarchenregular-Regular';
+  src: url('./fonts/NotoSansMarchen-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansmasaramgondiregular-Regular';
+  src: url('./fonts/NotoSansMasaramGondi-Regular.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansmeeteimayekregular-Regular';
+  src: url('./fonts/NotoSansMeeteiMayek-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansmendekikakuiregular-Regular';
+  src: url('./fonts/NotoSansMendeKikakui-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansmeroiticregular-Regular';
+  src: url('./fonts/NotoSansMeroitic-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansmiaoregular-Regular';
+  src: url('./fonts/NotoSansMiao-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansmodiregular-Regular';
+  src: url('./fonts/NotoSansModi-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansmongolianregular-Regular';
+  src: url('./fonts/NotoSansMongolian-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansmroregular-Regular';
+  src: url('./fonts/NotoSansMro-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansmultaniregular-Regular';
+  src: url('./fonts/NotoSansMultani-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansnabataeanregular-Regular';
+  src: url('./fonts/NotoSansNabataean-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansnewaregular-Regular';
+  src: url('./fonts/NotoSansNewa-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansnewtailueregular-Regular';
+  src: url('./fonts/NotoSansNewTaiLue-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansnkoregular-Regular';
+  src: url('./fonts/NotoSansNKo-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansolchikiregular-Regular';
+  src: url('./fonts/NotoSansOlChiki-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansoldhungarianregular-Regular';
+  src: url('./fonts/NotoSansOldHungarian-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansoldnortharabianregular-Regular';
+  src: url('./fonts/NotoSansOldNorthArabian-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansoldpermicregular-Regular';
+  src: url('./fonts/NotoSansOldPermic-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansoldpersianregular-Regular';
+  src: url('./fonts/NotoSansOldPersian-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansoldregular-Italic';
+  src: url('./fonts/NotoSansOldItalic-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansoldsoutharabianregular-Regular';
+  src: url('./fonts/NotoSansOldSouthArabian-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansoldturkicregular-Regular';
+  src: url('./fonts/NotoSansOldTurkic-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansosageregular-Regular';
+  src: url('./fonts/NotoSansOsage-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansosmanyaregular-Regular';
+  src: url('./fonts/NotoSansOsmanya-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanspahawhhmongregular-Regular';
+  src: url('./fonts/NotoSansPahawhHmong-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanspalmyreneregular-Regular';
+  src: url('./fonts/NotoSansPalmyrene-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanspaucinhauregular-Regular';
+  src: url('./fonts/NotoSansPauCinHau-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansphagsparegular-Regular';
+  src: url('./fonts/NotoSansPhagsPa-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansphoenicianregular-Regular';
+  src: url('./fonts/NotoSansPhoenician-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanspsalterpahlaviregular-Regular';
+  src: url('./fonts/NotoSansPsalterPahlavi-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansrejangregular-Regular';
+  src: url('./fonts/NotoSansRejang-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanssamaritanregular-Regular';
+  src: url('./fonts/NotoSansSamaritan-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanssaurashtraregular-Regular';
+  src: url('./fonts/NotoSansSaurashtra-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanssharadaregular-Regular';
+  src: url('./fonts/NotoSansSharada-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanssiddhamregular-Regular';
+  src: url('./fonts/NotoSansSiddham-Regular.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanssorasompengregular-Regular';
+  src: url('./fonts/NotoSansSoraSompeng-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanssundaneseregular-Regular';
+  src: url('./fonts/NotoSansSundanese-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanssylotinagriregular-Regular';
+  src: url('./fonts/NotoSansSylotiNagri-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanssyriacregular-Regular';
+  src: url('./fonts/NotoSansSyriac-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanstagalogregular-Regular';
+  src: url('./fonts/NotoSansTagalog-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanstagbanwaregular-Regular';
+  src: url('./fonts/NotoSansTagbanwa-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanstaileregular-Regular';
+  src: url('./fonts/NotoSansTaiLe-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanstaithamregular-Regular';
+  src: url('./fonts/NotoSansTaiTham-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanstaivietregular-Regular';
+  src: url('./fonts/NotoSansTaiViet-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanstakriregular-Regular';
+  src: url('./fonts/NotoSansTakri-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansthaanaregular-Regular';
+  src: url('./fonts/NotoSansThaana-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanstifinaghregular-Regular';
+  src: url('./fonts/NotoSansTifinagh-Regular.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanstirhutaregular-Regular';
+  src: url('./fonts/NotoSansTirhuta-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansugariticregular-Regular';
+  src: url('./fonts/NotoSansUgaritic-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansvairegular-Regular';
+  src: url('./fonts/NotoSansVai-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanswanchoregular-Regular';
+  src: url('./fonts/NotoSansWancho-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosanswarangcitiregular-Regular';
+  src: url('./fonts/NotoSansWarangCiti-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notosansyiregular-Regular';
+  src: url('./fonts/NotoSansYi-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notoserifahomregular-Regular';
+  src: url('./fonts/NotoSerifAhom-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notoserifbalineseregular-Regular';
+  src: url('./fonts/NotoSerifBalinese-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notoserifnyiakengpuachuehmongregular-Regular';
+  src: url('./fonts/NotoSerifNyiakengPuachueHmong-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'notoserifyezidiregular-Regular';
+  src: url('./fonts/NotoSerifYezidi-Regular.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'og---Regular';
+  src: url('./fonts/OG 르네상스 비밀.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'palladium-Regular';
+  src: url('./fonts/Palladium.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'paperlogy1-Thin';
+  src: url('./fonts/Paperlogy-1Thin.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'paperlogy2extra-Light ExtraLight';
+  src: url('./fonts/Paperlogy-2ExtraLight.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'paperlogy3-Light';
+  src: url('./fonts/Paperlogy-3Light.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'paperlogy4regular-Regular';
+  src: url('./fonts/Paperlogy-4Regular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'paperlogy5-Medium';
+  src: url('./fonts/Paperlogy-5Medium.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'paperlogy6semi-Bold SemiBold';
+  src: url('./fonts/Paperlogy-6SemiBold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'paperlogy7-Bold';
+  src: url('./fonts/Paperlogy-7Bold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'paperlogy8extra-Bold ExtraBold';
+  src: url('./fonts/Paperlogy-8ExtraBold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'paperlogy9-Black';
+  src: url('./fonts/Paperlogy-9Black.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'partyletplain-Regular';
+  src: url('./fonts/PartyLET-plain.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'plantagenetcherokee-Regular';
+  src: url('./fonts/PlantagenetCherokee.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'residentevillarge-Regular';
+  src: url('./fonts/Resident_Evil_Large.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'residentevillarge-2-Regular';
+  src: url('./fonts/Resident_Evil_Large 2.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sathu-Regular';
+  src: url('./fonts/Sathu.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'silom-Regular';
+  src: url('./fonts/Silom.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'skia-Regular';
+  src: url('./fonts/Skia.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixgeneral-Regular';
+  src: url('./fonts/STIXGeneral.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixgeneral-Italic';
+  src: url('./fonts/STIXGeneralItalic.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixgeneralbol-Regular';
+  src: url('./fonts/STIXGeneralBol.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixgeneralbolita-Regular';
+  src: url('./fonts/STIXGeneralBolIta.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixintdbol-Regular';
+  src: url('./fonts/STIXIntDBol.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixintdreg-Regular';
+  src: url('./fonts/STIXIntDReg.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixintsmbol-Regular';
+  src: url('./fonts/STIXIntSmBol.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixintsmreg-Regular';
+  src: url('./fonts/STIXIntSmReg.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixintupbol-Regular';
+  src: url('./fonts/STIXIntUpBol.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixintupdbol-Regular';
+  src: url('./fonts/STIXIntUpDBol.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixintupdreg-Regular';
+  src: url('./fonts/STIXIntUpDReg.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixintupreg-Regular';
+  src: url('./fonts/STIXIntUpReg.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixintupsmbol-Regular';
+  src: url('./fonts/STIXIntUpSmBol.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixintupsmreg-Regular';
+  src: url('./fonts/STIXIntUpSmReg.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixnonuni-Regular';
+  src: url('./fonts/STIXNonUni.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixnonunibol-Regular';
+  src: url('./fonts/STIXNonUniBol.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixnonunibolita-Regular';
+  src: url('./fonts/STIXNonUniBolIta.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixnonuniita-Regular';
+  src: url('./fonts/STIXNonUniIta.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixsizfivesymreg-Regular';
+  src: url('./fonts/STIXSizFiveSymReg.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixsizfoursymbol-Regular';
+  src: url('./fonts/STIXSizFourSymBol.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixsizfoursymreg-Regular';
+  src: url('./fonts/STIXSizFourSymReg.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixsizonesymbol-Regular';
+  src: url('./fonts/STIXSizOneSymBol.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixsizonesymreg-Regular';
+  src: url('./fonts/STIXSizOneSymReg.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixsizthreesymbol-Regular';
+  src: url('./fonts/STIXSizThreeSymBol.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixsizthreesymreg-Regular';
+  src: url('./fonts/STIXSizThreeSymReg.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixsiztwosymbol-Regular';
+  src: url('./fonts/STIXSizTwoSymBol.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixsiztwosymreg-Regular';
+  src: url('./fonts/STIXSizTwoSymReg.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixtwomath-Regular';
+  src: url('./fonts/STIXTwoMath.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixtwotext-Regular';
+  src: url('./fonts/STIXTwoText.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixtwotext-Italic';
+  src: url('./fonts/STIXTwoText-Italic.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixvar-Regular';
+  src: url('./fonts/STIXVar.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'stixvarbol-Regular';
+  src: url('./fonts/STIXVarBol.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'tahoma-Regular';
+  src: url('./fonts/Tahoma.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'tahoma-Bold';
+  src: url('./fonts/Tahoma Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'theplaying-Regular';
+  src: url('./fonts/THEPlaying.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'times-new-roman-Regular';
+  src: url('./fonts/Times New Roman.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'times-new-roman-Bold';
+  src: url('./fonts/Times New Roman Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'times-new-roman-Bold Italic';
+  src: url('./fonts/Times New Roman Bold Italic.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'times-new-roman-Italic';
+  src: url('./fonts/Times New Roman Italic.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'trattatello-Regular';
+  src: url('./fonts/Trattatello.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'trebuchet-ms-Regular';
+  src: url('./fonts/Trebuchet MS.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'trebuchet-ms-Bold';
+  src: url('./fonts/Trebuchet MS Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'trebuchet-ms-Bold Italic';
+  src: url('./fonts/Trebuchet MS Bold Italic.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'trebuchet-ms-Italic';
+  src: url('./fonts/Trebuchet MS Italic.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'tvn-enjoystories-Bold';
+  src: url('./fonts/tvN Enjoystories Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'tvn-enjoystories-Light';
+  src: url('./fonts/tvN Enjoystories Light.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'tvn-enjoystories-Medium';
+  src: url('./fonts/tvN Enjoystories Medium.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'verdana-Regular';
+  src: url('./fonts/Verdana.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'verdana-Bold';
+  src: url('./fonts/Verdana Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'verdana-Bold Italic';
+  src: url('./fonts/Verdana Bold Italic.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'verdana-Italic';
+  src: url('./fonts/Verdana Italic.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'vitro-core-OTF';
+  src: url('./fonts/VITRO CORE OTF.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'vitro-core-ttf';
+  src: url('./fonts/VITRO CORE TTF.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'vitro-inspire-OTF';
+  src: url('./fonts/VITRO INSPIRE OTF.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'vitro-inspire-ttf';
+  src: url('./fonts/VITRO INSPIRE TTF.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'vitro-pride-OTF';
+  src: url('./fonts/VITRO PRIDE OTF.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'vitro-pride-ttf';
+  src: url('./fonts/VITRO PRIDE TTF.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'waltdisney-font-Regular';
+  src: url('./fonts/WaltDisney Font.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'webdings-Regular';
+  src: url('./fonts/Webdings.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'wigglehangeul-Regular';
+  src: url('./fonts/wiggle-hangeul.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'wingdings-Regular';
+  src: url('./fonts/Wingdings.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'wingdings-2-Regular';
+  src: url('./fonts/Wingdings 2.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'wingdings-3-Regular';
+  src: url('./fonts/Wingdings 3.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'zapfino-Regular';
+  src: url('./fonts/Zapfino.ttf') format('truetype');
+  font-display: swap;
+}
+

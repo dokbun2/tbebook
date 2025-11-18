@@ -1,0 +1,1818 @@
+[
+  {
+    "name": "aritadotumkr",
+    "displayName": "아리따 돋움",
+    "category": "추천 글꼴",
+    "styles": [
+      "Bold",
+      "Light",
+      "Medium",
+      "Thin"
+    ]
+  },
+  {
+    "name": "aritadotumkrsemi",
+    "displayName": "아리따 돋움",
+    "category": "추천 글꼴",
+    "styles": [
+      "Bold SemiBold"
+    ]
+  },
+  {
+    "name": "applegothic",
+    "displayName": "애플 고딕",
+    "category": "추천 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "applemyungjo",
+    "displayName": "애플 명조",
+    "category": "추천 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "paperlogy1",
+    "displayName": "페이퍼로지",
+    "category": "추천 글꼴",
+    "styles": [
+      "Thin"
+    ]
+  },
+  {
+    "name": "paperlogy2extra",
+    "displayName": "페이퍼로지",
+    "category": "추천 글꼴",
+    "styles": [
+      "Light ExtraLight"
+    ]
+  },
+  {
+    "name": "paperlogy3",
+    "displayName": "페이퍼로지",
+    "category": "추천 글꼴",
+    "styles": [
+      "Light"
+    ]
+  },
+  {
+    "name": "paperlogy4regular",
+    "displayName": "페이퍼로지",
+    "category": "추천 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "paperlogy5",
+    "displayName": "페이퍼로지",
+    "category": "추천 글꼴",
+    "styles": [
+      "Medium"
+    ]
+  },
+  {
+    "name": "paperlogy6semi",
+    "displayName": "페이퍼로지",
+    "category": "추천 글꼴",
+    "styles": [
+      "Bold SemiBold"
+    ]
+  },
+  {
+    "name": "paperlogy7",
+    "displayName": "페이퍼로지",
+    "category": "추천 글꼴",
+    "styles": [
+      "Bold"
+    ]
+  },
+  {
+    "name": "paperlogy8extra",
+    "displayName": "페이퍼로지",
+    "category": "추천 글꼴",
+    "styles": [
+      "Bold ExtraBold"
+    ]
+  },
+  {
+    "name": "paperlogy9",
+    "displayName": "페이퍼로지",
+    "category": "추천 글꼴",
+    "styles": [
+      "Black"
+    ]
+  },
+  {
+    "name": "bmdohyeon",
+    "displayName": "배민 도현체",
+    "category": "제목용 글꼴",
+    "styles": [
+      "ttf"
+    ]
+  },
+  {
+    "name": "bmjua",
+    "displayName": "배민 주아체",
+    "category": "제목용 글꼴",
+    "styles": [
+      "ttf"
+    ]
+  },
+  {
+    "name": "bmhanna11yrs",
+    "displayName": "배민 한나는 열한살",
+    "category": "제목용 글꼴",
+    "styles": [
+      "ttf"
+    ]
+  },
+  {
+    "name": "notosansegyptianhieroglyphsregular",
+    "displayName": "본고딕",
+    "category": "제목용 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanstagalogregular",
+    "displayName": "본고딕",
+    "category": "제목용 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "impact",
+    "displayName": "임팩트",
+    "category": "제목용 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "chalkduster",
+    "displayName": "초크더스터",
+    "category": "제목용 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "og--",
+    "displayName": "OG 르네상스",
+    "category": "제목용 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "tvn-enjoystories",
+    "displayName": "tvN 즐거운이야기체",
+    "category": "제목용 글꼴",
+    "styles": [
+      "Bold",
+      "Light",
+      "Medium"
+    ]
+  },
+  {
+    "name": "chosunnm",
+    "displayName": "조선일보명조",
+    "category": "본문용 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "georgia",
+    "displayName": "조지아",
+    "category": "본문용 글꼴",
+    "styles": [
+      "Bold",
+      "Bold Italic",
+      "Italic",
+      "Regular"
+    ]
+  },
+  {
+    "name": "times-new-roman",
+    "displayName": "타임스 뉴 로만",
+    "category": "본문용 글꼴",
+    "styles": [
+      "Bold",
+      "Bold Italic",
+      "Italic",
+      "Regular"
+    ]
+  },
+  {
+    "name": "hoefler-text",
+    "displayName": "회플러 텍스트",
+    "category": "본문용 글꼴",
+    "styles": [
+      "Ornaments"
+    ]
+  },
+  {
+    "name": "210-omnigothic-030",
+    "displayName": "210 omnigothic 030",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "microsoft-sans-serif",
+    "displayName": "마이크로소프트 산스",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "verdana",
+    "displayName": "버다나",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Bold",
+      "Bold Italic",
+      "Italic",
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansadlamregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansavestanregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansbamumregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansbassavahregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansbatakregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansbhaiksukiregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansbrahmiregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansbugineseregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansbuhidregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanscanadianaboriginalregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanscarianregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanscaucasianalbanianregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanschakmaregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanschamregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanscopticregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanscuneiformregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanscypriotregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansduployanregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanselbasanregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansglagoliticregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansgothicregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansgunjalagondiregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanshanifirohingyaregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanshanunooregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanshatranregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansimperialaramaicregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansinionalpahlaviregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Script"
+    ]
+  },
+  {
+    "name": "notosansinionalparthianregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Script"
+    ]
+  },
+  {
+    "name": "notosansjavaneseregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanskaithiregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanskayahliregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanskharoshthiregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanskhojkiregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanskhudawadiregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanslepcharegular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanslimburegular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanslineararegular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanslinearbregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanslisuregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanslycianregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanslydianregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansmahajaniregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansmandaicregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansmanichaeanregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansmarchenregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansmasaramgondiregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansmeeteimayekregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansmendekikakuiregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansmeroiticregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansmiaoregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansmodiregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansmongolianregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansmroregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansmultaniregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansnabataeanregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansnewaregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansnewtailueregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansnkoregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansolchikiregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansoldhungarianregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansoldnortharabianregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansoldpermicregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansoldpersianregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansoldregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Italic"
+    ]
+  },
+  {
+    "name": "notosansoldsoutharabianregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansoldturkicregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansosageregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansosmanyaregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanspahawhhmongregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanspalmyreneregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanspaucinhauregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansphagsparegular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansphoenicianregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanspsalterpahlaviregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansrejangregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanssamaritanregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanssaurashtraregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanssharadaregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanssiddhamregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanssorasompengregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanssundaneseregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanssylotinagriregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanssyriacregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanstagbanwaregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanstaileregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanstaithamregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanstaivietregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanstakriregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansthaanaregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanstifinaghregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanstirhutaregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansugariticregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansvairegular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanswanchoregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosanswarangcitiregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notosansyiregular",
+    "displayName": "본고딕",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "arial",
+    "displayName": "에리얼",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Black",
+      "Bold",
+      "Bold Italic",
+      "Bold Italic Narrow",
+      "Bold Narrow",
+      "Bold Rounded",
+      "Italic",
+      "Italic Narrow",
+      "Narrow",
+      "Regular"
+    ]
+  },
+  {
+    "name": "arial-unicode",
+    "displayName": "에리얼",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "cafedeparissans",
+    "displayName": "카페 드 파리",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "comic-sans-ms",
+    "displayName": "코믹 산스",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Bold",
+      "Regular"
+    ]
+  },
+  {
+    "name": "tahoma",
+    "displayName": "타호마",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Bold",
+      "Regular"
+    ]
+  },
+  {
+    "name": "trebuchet-ms",
+    "displayName": "트레뷰쳇",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Bold",
+      "Bold Italic",
+      "Italic",
+      "Regular"
+    ]
+  },
+  {
+    "name": "din-alternate",
+    "displayName": "DIN",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Bold"
+    ]
+  },
+  {
+    "name": "din-condensed",
+    "displayName": "DIN",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Bold"
+    ]
+  },
+  {
+    "name": "webdings",
+    "displayName": "DIN",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "wingdings",
+    "displayName": "DIN",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "wingdings-2",
+    "displayName": "DIN",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "wingdings-3",
+    "displayName": "DIN",
+    "category": "고딕 & 산세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "bodoni",
+    "displayName": "보도니",
+    "category": "명조 & 세리프",
+    "styles": [
+      "Ornaments"
+    ]
+  },
+  {
+    "name": "bodoni-72-book",
+    "displayName": "보도니",
+    "category": "명조 & 세리프",
+    "styles": [
+      "Smallcaps"
+    ]
+  },
+  {
+    "name": "bigcaslon",
+    "displayName": "빅 캐슬론",
+    "category": "명조 & 세리프",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "luminari",
+    "displayName": "루미나리",
+    "category": "필기체 & 캘리그래피",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "bradley-hand",
+    "displayName": "브래들리 핸드",
+    "category": "필기체 & 캘리그래피",
+    "styles": [
+      "Bold"
+    ]
+  },
+  {
+    "name": "apple-chancery",
+    "displayName": "애플 챈서리",
+    "category": "필기체 & 캘리그래피",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "zapfino",
+    "displayName": "자피노",
+    "category": "필기체 & 캘리그래피",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "trattatello",
+    "displayName": "트라타텔로",
+    "category": "필기체 & 캘리그래피",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "brush",
+    "displayName": "brush",
+    "category": "필기체 & 캘리그래피",
+    "styles": [
+      "Script"
+    ]
+  },
+  {
+    "name": "andale-mono",
+    "displayName": "앤데일 모노",
+    "category": "고정폭 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "courier-new",
+    "displayName": "쿠리어 뉴",
+    "category": "고정폭 글꼴",
+    "styles": [
+      "Bold",
+      "Bold Italic",
+      "Italic",
+      "Regular"
+    ]
+  },
+  {
+    "name": "herculanum",
+    "displayName": "헤르쿨라눔",
+    "category": "장식용 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "skia",
+    "displayName": "skia",
+    "category": "장식용 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "theplaying",
+    "displayName": "더 플레잉",
+    "category": "캐주얼 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "maplestory",
+    "displayName": "메이플스토리",
+    "category": "캐주얼 글꼴",
+    "styles": [
+      "Bold",
+      "Bold OTF",
+      "Light",
+      "Light OTF"
+    ]
+  },
+  {
+    "name": "wigglehangeul",
+    "displayName": "위글한글",
+    "category": "캐주얼 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "hakgyoansimjiugaer",
+    "displayName": "학교안심 지우개",
+    "category": "캐주얼 글꼴",
+    "styles": [
+      "OTF",
+      "Regular"
+    ]
+  },
+  {
+    "name": "210--b",
+    "displayName": "210 b",
+    "category": "210 시리즈",
+    "styles": [
+      "OTF"
+    ]
+  },
+  {
+    "name": "210-b",
+    "displayName": "210 b",
+    "category": "210 시리즈",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "210-chungchunsidae-r",
+    "displayName": "210 chungchunsidae r",
+    "category": "210 시리즈",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "210--l",
+    "displayName": "210 l",
+    "category": "210 시리즈",
+    "styles": [
+      "OTF"
+    ]
+  },
+  {
+    "name": "210-l",
+    "displayName": "210 l",
+    "category": "210 시리즈",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "210-mutjinueonuenal-r",
+    "displayName": "210 mutjinueonuenal r",
+    "category": "210 시리즈",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "210--r",
+    "displayName": "210 r",
+    "category": "210 시리즈",
+    "styles": [
+      "OTF"
+    ]
+  },
+  {
+    "name": "210-r",
+    "displayName": "210 r",
+    "category": "210 시리즈",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "210-yangmalgumung-r",
+    "displayName": "210 yangmalgumung r",
+    "category": "210 시리즈",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "residentevillarge",
+    "displayName": "레지던트 이블",
+    "category": "특수 효과 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "residentevillarge-2",
+    "displayName": "레지던트 이블",
+    "category": "특수 효과 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "vitro-inspire",
+    "displayName": "비트로 인스파이어",
+    "category": "특수 효과 글꼴",
+    "styles": [
+      "OTF",
+      "ttf"
+    ]
+  },
+  {
+    "name": "vitro-core",
+    "displayName": "비트로 코어",
+    "category": "특수 효과 글꼴",
+    "styles": [
+      "OTF",
+      "ttf"
+    ]
+  },
+  {
+    "name": "vitro-pride",
+    "displayName": "비트로 프라이드",
+    "category": "특수 효과 글꼴",
+    "styles": [
+      "OTF",
+      "ttf"
+    ]
+  },
+  {
+    "name": "waltdisney-font",
+    "displayName": "월트 디즈니",
+    "category": "특수 효과 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "cafedeparis",
+    "displayName": "카페 드 파리",
+    "category": "특수 효과 글꼴",
+    "styles": [
+      "Script"
+    ]
+  },
+  {
+    "name": "creattion-demo",
+    "displayName": "크리에이션",
+    "category": "특수 효과 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "palladium",
+    "displayName": "palladium",
+    "category": "특수 효과 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notoserifahomregular",
+    "displayName": "본고딕",
+    "category": "Noto 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notoserifbalineseregular",
+    "displayName": "본고딕",
+    "category": "Noto 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notoserifnyiakengpuachuehmongregular",
+    "displayName": "본고딕",
+    "category": "Noto 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "notoserifyezidiregular",
+    "displayName": "본고딕",
+    "category": "Noto 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixgeneral",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Italic",
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixgeneralbol",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixgeneralbolita",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixintdbol",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixintdreg",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixintsmbol",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixintsmreg",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixintupbol",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixintupdbol",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixintupdreg",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixintupreg",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixintupsmbol",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixintupsmreg",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixnonuni",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixnonunibol",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixnonunibolita",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixnonuniita",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixsizfivesymreg",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixsizfoursymbol",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixsizfoursymreg",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixsizonesymbol",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixsizonesymreg",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixsizthreesymbol",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixsizthreesymreg",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixsiztwosymbol",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixsiztwosymreg",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixtwomath",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixtwotext",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Italic",
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixvar",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "stixvarbol",
+    "displayName": "STIX",
+    "category": "STIX 글꼴",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "ayuthaya",
+    "displayName": "아유타야",
+    "category": "기타",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "academy-engraved-let-fonts",
+    "displayName": "아카데미 엔그레이브드",
+    "category": "기타",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "partyletplain",
+    "displayName": "파티렛",
+    "category": "기타",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "diwan-thuluth",
+    "displayName": "diwan thuluth",
+    "category": "기타",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "farisi",
+    "displayName": "farisi",
+    "category": "기타",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "gurmukhi",
+    "displayName": "gurmukhi",
+    "category": "기타",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "khmer-sangam-mn",
+    "displayName": "khmer sangam mn",
+    "category": "기타",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "kokonor",
+    "displayName": "kokonor",
+    "category": "기타",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "krungthep",
+    "displayName": "krungthep",
+    "category": "기타",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "lao-sangam-mn",
+    "displayName": "lao sangam mn",
+    "category": "기타",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "mishafi",
+    "displayName": "mishafi",
+    "category": "기타",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "mishafi-gold",
+    "displayName": "mishafi gold",
+    "category": "기타",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "nisc18030",
+    "displayName": "nisc18030",
+    "category": "기타",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "plantagenetcherokee",
+    "displayName": "plantagenetcherokee",
+    "category": "기타",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "sathu",
+    "displayName": "sathu",
+    "category": "기타",
+    "styles": [
+      "Regular"
+    ]
+  },
+  {
+    "name": "silom",
+    "displayName": "silom",
+    "category": "기타",
+    "styles": [
+      "Regular"
+    ]
+  }
+]

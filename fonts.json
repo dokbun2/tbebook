@@ -1,0 +1,2881 @@
+[
+  {
+    "family_id": "210--b",
+    "korean_name": "210 골목길 B",
+    "english_name": "210 골목길 B",
+    "variants": [
+      {
+        "style": "OTF",
+        "file": "210 골목길OTF B.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "210--l",
+    "korean_name": "210 골목길 L",
+    "english_name": "210 골목길 L",
+    "variants": [
+      {
+        "style": "OTF",
+        "file": "210 골목길OTF L.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "210--r",
+    "korean_name": "210 골목길 R",
+    "english_name": "210 골목길 R",
+    "variants": [
+      {
+        "style": "OTF",
+        "file": "210 골목길OTF R.otf",
+        "ext": "otf"
+      },
+      {
+        "style": "OTF",
+        "file": "210 팅커벨OTF R.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "210-b",
+    "korean_name": "210 에브리바디B",
+    "english_name": "210 에브리바디B",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "210 에브리바디B.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "210-chungchunsidae-r",
+    "korean_name": "210 Chungchunsidae R",
+    "english_name": "210 Chungchunsidae R",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "210 Chungchunsidae R.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "210-l",
+    "korean_name": "210 에브리바디L",
+    "english_name": "210 에브리바디L",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "210 에브리바디L.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "210-mutjinueonuenal-r",
+    "korean_name": "210 Mutjinueonuenal R",
+    "english_name": "210 Mutjinueonuenal R",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "210 Mutjinueonuenal R.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "210-omnigothic-030",
+    "korean_name": "210 OmniGothic 030",
+    "english_name": "210 OmniGothic 030",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "210 OmniGothic 030.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "210-r",
+    "korean_name": "210 밤의해변R",
+    "english_name": "210 밤의해변R",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "210 밤의해변R.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Regular",
+        "file": "210 에브리바디R.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Regular",
+        "file": "210 직장인의한마디R.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "210-yangmalgumung-r",
+    "korean_name": "210 Yangmalgumung R",
+    "english_name": "210 Yangmalgumung R",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "210 Yangmalgumung R.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "academy-engraved-let-fonts",
+    "korean_name": "Academy Engraved LET Fonts",
+    "english_name": "Academy Engraved LET Fonts",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Academy Engraved LET Fonts.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "andale-mono",
+    "korean_name": "Andale Mono",
+    "english_name": "Andale Mono",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Andale Mono.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "apple-chancery",
+    "korean_name": "Apple Chancery",
+    "english_name": "Apple Chancery",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Apple Chancery.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "applegothic",
+    "korean_name": "AppleGothic",
+    "english_name": "AppleGothic",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "AppleGothic.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "applemyungjo",
+    "korean_name": "AppleMyungjo",
+    "english_name": "AppleMyungjo",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "AppleMyungjo.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "arial",
+    "korean_name": "Arial",
+    "english_name": "Arial",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Arial.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Black",
+        "file": "Arial Black.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Bold",
+        "file": "Arial Bold.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Bold Italic",
+        "file": "Arial Bold Italic.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Bold Italic Narrow",
+        "file": "Arial Narrow Bold Italic.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Bold Narrow",
+        "file": "Arial Narrow Bold.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Bold Rounded",
+        "file": "Arial Rounded Bold.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Italic",
+        "file": "Arial Italic.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Italic Narrow",
+        "file": "Arial Narrow Italic.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Narrow",
+        "file": "Arial Narrow.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "arial-unicode",
+    "korean_name": "Arial Unicode",
+    "english_name": "Arial Unicode",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Arial Unicode.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "aritadotumkr",
+    "korean_name": "AritaDotumKR-",
+    "english_name": "AritaDotumKR-",
+    "variants": [
+      {
+        "style": "Bold",
+        "file": "AritaDotumKR-Bold.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Light",
+        "file": "AritaDotumKR-Light.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Medium",
+        "file": "AritaDotumKR-Medium.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Thin",
+        "file": "AritaDotumKR-Thin.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "aritadotumkrsemi",
+    "korean_name": "AritaDotumKR-Semi",
+    "english_name": "AritaDotumKR-Semi",
+    "variants": [
+      {
+        "style": "Bold SemiBold",
+        "file": "AritaDotumKR-SemiBold.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "ayuthaya",
+    "korean_name": "Ayuthaya",
+    "english_name": "Ayuthaya",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Ayuthaya.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "bigcaslon",
+    "korean_name": "BigCaslon",
+    "english_name": "BigCaslon",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "BigCaslon.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "bmdohyeon",
+    "korean_name": "BMDOHYEON_",
+    "english_name": "BMDOHYEON_",
+    "variants": [
+      {
+        "style": "ttf",
+        "file": "BMDOHYEON_ttf.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "bmhanna11yrs",
+    "korean_name": "BMHANNA_11yrs_",
+    "english_name": "BMHANNA_11yrs_",
+    "variants": [
+      {
+        "style": "ttf",
+        "file": "BMHANNA_11yrs_ttf.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "bmjua",
+    "korean_name": "BMJUA_",
+    "english_name": "BMJUA_",
+    "variants": [
+      {
+        "style": "ttf",
+        "file": "BMJUA_ttf.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "bodoni",
+    "korean_name": "Bodoni",
+    "english_name": "Bodoni",
+    "variants": [
+      {
+        "style": "Ornaments",
+        "file": "Bodoni Ornaments.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "bodoni-72-book",
+    "korean_name": "Bodoni 72 Book",
+    "english_name": "Bodoni 72 Book",
+    "variants": [
+      {
+        "style": "Smallcaps",
+        "file": "Bodoni 72 Smallcaps Book.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "bradley-hand",
+    "korean_name": "Bradley Hand",
+    "english_name": "Bradley Hand",
+    "variants": [
+      {
+        "style": "Bold",
+        "file": "Bradley Hand Bold.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "brush",
+    "korean_name": "Brush",
+    "english_name": "Brush",
+    "variants": [
+      {
+        "style": "Script",
+        "file": "Brush Script.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "cafedeparis",
+    "korean_name": "Cafedeparis",
+    "english_name": "Cafedeparis",
+    "variants": [
+      {
+        "style": "Script",
+        "file": "CafedeparisScript.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "cafedeparissans",
+    "korean_name": "CafeDeParisSans",
+    "english_name": "CafeDeParisSans",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "CafeDeParisSans.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "chalkduster",
+    "korean_name": "Chalkduster",
+    "english_name": "Chalkduster",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Chalkduster.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "chosunnm",
+    "korean_name": "ChosunNm",
+    "english_name": "ChosunNm",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "ChosunNm.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "comic-sans-ms",
+    "korean_name": "Comic Sans MS",
+    "english_name": "Comic Sans MS",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Comic Sans MS.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Bold",
+        "file": "Comic Sans MS Bold.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "courier-new",
+    "korean_name": "Courier New",
+    "english_name": "Courier New",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Courier New.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Bold",
+        "file": "Courier New Bold.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Bold Italic",
+        "file": "Courier New Bold Italic.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Italic",
+        "file": "Courier New Italic.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "creattion-demo",
+    "korean_name": "Creattion Demo",
+    "english_name": "Creattion Demo",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Creattion Demo.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "din-alternate",
+    "korean_name": "DIN Alternate",
+    "english_name": "DIN Alternate",
+    "variants": [
+      {
+        "style": "Bold",
+        "file": "DIN Alternate Bold.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "din-condensed",
+    "korean_name": "DIN Condensed",
+    "english_name": "DIN Condensed",
+    "variants": [
+      {
+        "style": "Bold",
+        "file": "DIN Condensed Bold.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "diwan-thuluth",
+    "korean_name": "Diwan Thuluth",
+    "english_name": "Diwan Thuluth",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Diwan Thuluth.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "farisi",
+    "korean_name": "Farisi",
+    "english_name": "Farisi",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Farisi.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "georgia",
+    "korean_name": "Georgia",
+    "english_name": "Georgia",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Georgia.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Bold",
+        "file": "Georgia Bold.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Bold Italic",
+        "file": "Georgia Bold Italic.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Italic",
+        "file": "Georgia Italic.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "gurmukhi",
+    "korean_name": "Gurmukhi",
+    "english_name": "Gurmukhi",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Gurmukhi.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "hakgyoansimjiugaer",
+    "korean_name": "HakgyoansimJiugaeR",
+    "english_name": "HakgyoansimJiugaeR",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "HakgyoansimJiugaeR.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "OTF",
+        "file": "HakgyoansimJiugaeOTFR.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "herculanum",
+    "korean_name": "Herculanum",
+    "english_name": "Herculanum",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Herculanum.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "hoefler-text",
+    "korean_name": "Hoefler Text",
+    "english_name": "Hoefler Text",
+    "variants": [
+      {
+        "style": "Ornaments",
+        "file": "Hoefler Text Ornaments.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "impact",
+    "korean_name": "Impact",
+    "english_name": "Impact",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Impact.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "khmer-sangam-mn",
+    "korean_name": "Khmer Sangam MN",
+    "english_name": "Khmer Sangam MN",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Khmer Sangam MN.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "kokonor",
+    "korean_name": "Kokonor",
+    "english_name": "Kokonor",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Kokonor.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "krungthep",
+    "korean_name": "Krungthep",
+    "english_name": "Krungthep",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Krungthep.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "lao-sangam-mn",
+    "korean_name": "Lao Sangam MN",
+    "english_name": "Lao Sangam MN",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Lao Sangam MN.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "luminari",
+    "korean_name": "Luminari",
+    "english_name": "Luminari",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Luminari.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "maplestory",
+    "korean_name": "Maplestory",
+    "english_name": "Maplestory",
+    "variants": [
+      {
+        "style": "Bold",
+        "file": "Maplestory Bold.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Bold OTF",
+        "file": "Maplestory OTF Bold.otf",
+        "ext": "otf"
+      },
+      {
+        "style": "Light",
+        "file": "Maplestory Light.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Light OTF",
+        "file": "Maplestory OTF Light.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "microsoft-sans-serif",
+    "korean_name": "Microsoft Sans Serif",
+    "english_name": "Microsoft Sans Serif",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Microsoft Sans Serif.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "mishafi",
+    "korean_name": "Mishafi",
+    "english_name": "Mishafi",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Mishafi.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "mishafi-gold",
+    "korean_name": "Mishafi Gold",
+    "english_name": "Mishafi Gold",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Mishafi Gold.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "nisc18030",
+    "korean_name": "NISC18030",
+    "english_name": "NISC18030",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NISC18030.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansadlamregular",
+    "korean_name": "NotoSansAdlam-Regular",
+    "english_name": "NotoSansAdlam-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansAdlam-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansavestanregular",
+    "korean_name": "NotoSansAvestan-Regular",
+    "english_name": "NotoSansAvestan-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansAvestan-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansbamumregular",
+    "korean_name": "NotoSansBamum-Regular",
+    "english_name": "NotoSansBamum-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansBamum-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansbassavahregular",
+    "korean_name": "NotoSansBassaVah-Regular",
+    "english_name": "NotoSansBassaVah-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansBassaVah-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansbatakregular",
+    "korean_name": "NotoSansBatak-Regular",
+    "english_name": "NotoSansBatak-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansBatak-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansbhaiksukiregular",
+    "korean_name": "NotoSansBhaiksuki-Regular",
+    "english_name": "NotoSansBhaiksuki-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansBhaiksuki-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansbrahmiregular",
+    "korean_name": "NotoSansBrahmi-Regular",
+    "english_name": "NotoSansBrahmi-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansBrahmi-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansbugineseregular",
+    "korean_name": "NotoSansBuginese-Regular",
+    "english_name": "NotoSansBuginese-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansBuginese-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansbuhidregular",
+    "korean_name": "NotoSansBuhid-Regular",
+    "english_name": "NotoSansBuhid-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansBuhid-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanscanadianaboriginalregular",
+    "korean_name": "NotoSansCanadianAboriginal-Regular",
+    "english_name": "NotoSansCanadianAboriginal-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansCanadianAboriginal-Regular.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanscarianregular",
+    "korean_name": "NotoSansCarian-Regular",
+    "english_name": "NotoSansCarian-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansCarian-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanscaucasianalbanianregular",
+    "korean_name": "NotoSansCaucasianAlbanian-Regular",
+    "english_name": "NotoSansCaucasianAlbanian-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansCaucasianAlbanian-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanschakmaregular",
+    "korean_name": "NotoSansChakma-Regular",
+    "english_name": "NotoSansChakma-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansChakma-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanschamregular",
+    "korean_name": "NotoSansCham-Regular",
+    "english_name": "NotoSansCham-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansCham-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanscopticregular",
+    "korean_name": "NotoSansCoptic-Regular",
+    "english_name": "NotoSansCoptic-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansCoptic-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanscuneiformregular",
+    "korean_name": "NotoSansCuneiform-Regular",
+    "english_name": "NotoSansCuneiform-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansCuneiform-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanscypriotregular",
+    "korean_name": "NotoSansCypriot-Regular",
+    "english_name": "NotoSansCypriot-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansCypriot-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansduployanregular",
+    "korean_name": "NotoSansDuployan-Regular",
+    "english_name": "NotoSansDuployan-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansDuployan-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansegyptianhieroglyphsregular",
+    "korean_name": "NotoSansEgyptianHieroglyphs-Regular",
+    "english_name": "NotoSansEgyptianHieroglyphs-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansEgyptianHieroglyphs-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanselbasanregular",
+    "korean_name": "NotoSansElbasan-Regular",
+    "english_name": "NotoSansElbasan-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansElbasan-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansglagoliticregular",
+    "korean_name": "NotoSansGlagolitic-Regular",
+    "english_name": "NotoSansGlagolitic-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansGlagolitic-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansgothicregular",
+    "korean_name": "NotoSansGothic-Regular",
+    "english_name": "NotoSansGothic-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansGothic-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansgunjalagondiregular",
+    "korean_name": "NotoSansGunjalaGondi-Regular",
+    "english_name": "NotoSansGunjalaGondi-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansGunjalaGondi-Regular.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanshanifirohingyaregular",
+    "korean_name": "NotoSansHanifiRohingya-Regular",
+    "english_name": "NotoSansHanifiRohingya-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansHanifiRohingya-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanshanunooregular",
+    "korean_name": "NotoSansHanunoo-Regular",
+    "english_name": "NotoSansHanunoo-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansHanunoo-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanshatranregular",
+    "korean_name": "NotoSansHatran-Regular",
+    "english_name": "NotoSansHatran-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansHatran-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansimperialaramaicregular",
+    "korean_name": "NotoSansImperialAramaic-Regular",
+    "english_name": "NotoSansImperialAramaic-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansImperialAramaic-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansinionalpahlaviregular",
+    "korean_name": "NotoSansInionalPahlavi-Regular",
+    "english_name": "NotoSansInionalPahlavi-Regular",
+    "variants": [
+      {
+        "style": "Script",
+        "file": "NotoSansInscriptionalPahlavi-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansinionalparthianregular",
+    "korean_name": "NotoSansInionalParthian-Regular",
+    "english_name": "NotoSansInionalParthian-Regular",
+    "variants": [
+      {
+        "style": "Script",
+        "file": "NotoSansInscriptionalParthian-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansjavaneseregular",
+    "korean_name": "NotoSansJavanese-Regular",
+    "english_name": "NotoSansJavanese-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansJavanese-Regular.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanskaithiregular",
+    "korean_name": "NotoSansKaithi-Regular",
+    "english_name": "NotoSansKaithi-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansKaithi-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanskayahliregular",
+    "korean_name": "NotoSansKayahLi-Regular",
+    "english_name": "NotoSansKayahLi-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansKayahLi-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanskharoshthiregular",
+    "korean_name": "NotoSansKharoshthi-Regular",
+    "english_name": "NotoSansKharoshthi-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansKharoshthi-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanskhojkiregular",
+    "korean_name": "NotoSansKhojki-Regular",
+    "english_name": "NotoSansKhojki-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansKhojki-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanskhudawadiregular",
+    "korean_name": "NotoSansKhudawadi-Regular",
+    "english_name": "NotoSansKhudawadi-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansKhudawadi-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanslepcharegular",
+    "korean_name": "NotoSansLepcha-Regular",
+    "english_name": "NotoSansLepcha-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansLepcha-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanslimburegular",
+    "korean_name": "NotoSansLimbu-Regular",
+    "english_name": "NotoSansLimbu-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansLimbu-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanslineararegular",
+    "korean_name": "NotoSansLinearA-Regular",
+    "english_name": "NotoSansLinearA-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansLinearA-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanslinearbregular",
+    "korean_name": "NotoSansLinearB-Regular",
+    "english_name": "NotoSansLinearB-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansLinearB-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanslisuregular",
+    "korean_name": "NotoSansLisu-Regular",
+    "english_name": "NotoSansLisu-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansLisu-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanslycianregular",
+    "korean_name": "NotoSansLycian-Regular",
+    "english_name": "NotoSansLycian-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansLycian-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanslydianregular",
+    "korean_name": "NotoSansLydian-Regular",
+    "english_name": "NotoSansLydian-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansLydian-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansmahajaniregular",
+    "korean_name": "NotoSansMahajani-Regular",
+    "english_name": "NotoSansMahajani-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansMahajani-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansmandaicregular",
+    "korean_name": "NotoSansMandaic-Regular",
+    "english_name": "NotoSansMandaic-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansMandaic-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansmanichaeanregular",
+    "korean_name": "NotoSansManichaean-Regular",
+    "english_name": "NotoSansManichaean-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansManichaean-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansmarchenregular",
+    "korean_name": "NotoSansMarchen-Regular",
+    "english_name": "NotoSansMarchen-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansMarchen-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansmasaramgondiregular",
+    "korean_name": "NotoSansMasaramGondi-Regular",
+    "english_name": "NotoSansMasaramGondi-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansMasaramGondi-Regular.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansmeeteimayekregular",
+    "korean_name": "NotoSansMeeteiMayek-Regular",
+    "english_name": "NotoSansMeeteiMayek-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansMeeteiMayek-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansmendekikakuiregular",
+    "korean_name": "NotoSansMendeKikakui-Regular",
+    "english_name": "NotoSansMendeKikakui-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansMendeKikakui-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansmeroiticregular",
+    "korean_name": "NotoSansMeroitic-Regular",
+    "english_name": "NotoSansMeroitic-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansMeroitic-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansmiaoregular",
+    "korean_name": "NotoSansMiao-Regular",
+    "english_name": "NotoSansMiao-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansMiao-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansmodiregular",
+    "korean_name": "NotoSansModi-Regular",
+    "english_name": "NotoSansModi-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansModi-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansmongolianregular",
+    "korean_name": "NotoSansMongolian-Regular",
+    "english_name": "NotoSansMongolian-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansMongolian-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansmroregular",
+    "korean_name": "NotoSansMro-Regular",
+    "english_name": "NotoSansMro-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansMro-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansmultaniregular",
+    "korean_name": "NotoSansMultani-Regular",
+    "english_name": "NotoSansMultani-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansMultani-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansnabataeanregular",
+    "korean_name": "NotoSansNabataean-Regular",
+    "english_name": "NotoSansNabataean-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansNabataean-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansnewaregular",
+    "korean_name": "NotoSansNewa-Regular",
+    "english_name": "NotoSansNewa-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansNewa-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansnewtailueregular",
+    "korean_name": "NotoSansNewTaiLue-Regular",
+    "english_name": "NotoSansNewTaiLue-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansNewTaiLue-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansnkoregular",
+    "korean_name": "NotoSansNKo-Regular",
+    "english_name": "NotoSansNKo-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansNKo-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansolchikiregular",
+    "korean_name": "NotoSansOlChiki-Regular",
+    "english_name": "NotoSansOlChiki-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansOlChiki-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansoldhungarianregular",
+    "korean_name": "NotoSansOldHungarian-Regular",
+    "english_name": "NotoSansOldHungarian-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansOldHungarian-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansoldnortharabianregular",
+    "korean_name": "NotoSansOldNorthArabian-Regular",
+    "english_name": "NotoSansOldNorthArabian-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansOldNorthArabian-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansoldpermicregular",
+    "korean_name": "NotoSansOldPermic-Regular",
+    "english_name": "NotoSansOldPermic-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansOldPermic-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansoldpersianregular",
+    "korean_name": "NotoSansOldPersian-Regular",
+    "english_name": "NotoSansOldPersian-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansOldPersian-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansoldregular",
+    "korean_name": "NotoSansOld-Regular",
+    "english_name": "NotoSansOld-Regular",
+    "variants": [
+      {
+        "style": "Italic",
+        "file": "NotoSansOldItalic-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansoldsoutharabianregular",
+    "korean_name": "NotoSansOldSouthArabian-Regular",
+    "english_name": "NotoSansOldSouthArabian-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansOldSouthArabian-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansoldturkicregular",
+    "korean_name": "NotoSansOldTurkic-Regular",
+    "english_name": "NotoSansOldTurkic-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansOldTurkic-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansosageregular",
+    "korean_name": "NotoSansOsage-Regular",
+    "english_name": "NotoSansOsage-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansOsage-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansosmanyaregular",
+    "korean_name": "NotoSansOsmanya-Regular",
+    "english_name": "NotoSansOsmanya-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansOsmanya-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanspahawhhmongregular",
+    "korean_name": "NotoSansPahawhHmong-Regular",
+    "english_name": "NotoSansPahawhHmong-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansPahawhHmong-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanspalmyreneregular",
+    "korean_name": "NotoSansPalmyrene-Regular",
+    "english_name": "NotoSansPalmyrene-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansPalmyrene-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanspaucinhauregular",
+    "korean_name": "NotoSansPauCinHau-Regular",
+    "english_name": "NotoSansPauCinHau-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansPauCinHau-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansphagsparegular",
+    "korean_name": "NotoSansPhagsPa-Regular",
+    "english_name": "NotoSansPhagsPa-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansPhagsPa-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansphoenicianregular",
+    "korean_name": "NotoSansPhoenician-Regular",
+    "english_name": "NotoSansPhoenician-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansPhoenician-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanspsalterpahlaviregular",
+    "korean_name": "NotoSansPsalterPahlavi-Regular",
+    "english_name": "NotoSansPsalterPahlavi-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansPsalterPahlavi-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansrejangregular",
+    "korean_name": "NotoSansRejang-Regular",
+    "english_name": "NotoSansRejang-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansRejang-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanssamaritanregular",
+    "korean_name": "NotoSansSamaritan-Regular",
+    "english_name": "NotoSansSamaritan-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansSamaritan-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanssaurashtraregular",
+    "korean_name": "NotoSansSaurashtra-Regular",
+    "english_name": "NotoSansSaurashtra-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansSaurashtra-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanssharadaregular",
+    "korean_name": "NotoSansSharada-Regular",
+    "english_name": "NotoSansSharada-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansSharada-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanssiddhamregular",
+    "korean_name": "NotoSansSiddham-Regular",
+    "english_name": "NotoSansSiddham-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansSiddham-Regular.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanssorasompengregular",
+    "korean_name": "NotoSansSoraSompeng-Regular",
+    "english_name": "NotoSansSoraSompeng-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansSoraSompeng-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanssundaneseregular",
+    "korean_name": "NotoSansSundanese-Regular",
+    "english_name": "NotoSansSundanese-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansSundanese-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanssylotinagriregular",
+    "korean_name": "NotoSansSylotiNagri-Regular",
+    "english_name": "NotoSansSylotiNagri-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansSylotiNagri-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanssyriacregular",
+    "korean_name": "NotoSansSyriac-Regular",
+    "english_name": "NotoSansSyriac-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansSyriac-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanstagalogregular",
+    "korean_name": "NotoSansTagalog-Regular",
+    "english_name": "NotoSansTagalog-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansTagalog-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanstagbanwaregular",
+    "korean_name": "NotoSansTagbanwa-Regular",
+    "english_name": "NotoSansTagbanwa-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansTagbanwa-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanstaileregular",
+    "korean_name": "NotoSansTaiLe-Regular",
+    "english_name": "NotoSansTaiLe-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansTaiLe-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanstaithamregular",
+    "korean_name": "NotoSansTaiTham-Regular",
+    "english_name": "NotoSansTaiTham-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansTaiTham-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanstaivietregular",
+    "korean_name": "NotoSansTaiViet-Regular",
+    "english_name": "NotoSansTaiViet-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansTaiViet-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanstakriregular",
+    "korean_name": "NotoSansTakri-Regular",
+    "english_name": "NotoSansTakri-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansTakri-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansthaanaregular",
+    "korean_name": "NotoSansThaana-Regular",
+    "english_name": "NotoSansThaana-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansThaana-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanstifinaghregular",
+    "korean_name": "NotoSansTifinagh-Regular",
+    "english_name": "NotoSansTifinagh-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansTifinagh-Regular.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanstirhutaregular",
+    "korean_name": "NotoSansTirhuta-Regular",
+    "english_name": "NotoSansTirhuta-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansTirhuta-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansugariticregular",
+    "korean_name": "NotoSansUgaritic-Regular",
+    "english_name": "NotoSansUgaritic-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansUgaritic-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansvairegular",
+    "korean_name": "NotoSansVai-Regular",
+    "english_name": "NotoSansVai-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansVai-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanswanchoregular",
+    "korean_name": "NotoSansWancho-Regular",
+    "english_name": "NotoSansWancho-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansWancho-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosanswarangcitiregular",
+    "korean_name": "NotoSansWarangCiti-Regular",
+    "english_name": "NotoSansWarangCiti-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansWarangCiti-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notosansyiregular",
+    "korean_name": "NotoSansYi-Regular",
+    "english_name": "NotoSansYi-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSansYi-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notoserifahomregular",
+    "korean_name": "NotoSerifAhom-Regular",
+    "english_name": "NotoSerifAhom-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSerifAhom-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notoserifbalineseregular",
+    "korean_name": "NotoSerifBalinese-Regular",
+    "english_name": "NotoSerifBalinese-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSerifBalinese-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notoserifnyiakengpuachuehmongregular",
+    "korean_name": "NotoSerifNyiakengPuachueHmong-Regular",
+    "english_name": "NotoSerifNyiakengPuachueHmong-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSerifNyiakengPuachueHmong-Regular.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "notoserifyezidiregular",
+    "korean_name": "NotoSerifYezidi-Regular",
+    "english_name": "NotoSerifYezidi-Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "NotoSerifYezidi-Regular.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "og--",
+    "korean_name": "OG 르네상스 비밀",
+    "english_name": "OG 르네상스 비밀",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "OG 르네상스 비밀.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "palladium",
+    "korean_name": "Palladium",
+    "english_name": "Palladium",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Palladium.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "paperlogy1",
+    "korean_name": "Paperlogy-1",
+    "english_name": "Paperlogy-1",
+    "variants": [
+      {
+        "style": "Thin",
+        "file": "Paperlogy-1Thin.woff",
+        "ext": "woff"
+      }
+    ]
+  },
+  {
+    "family_id": "paperlogy2extra",
+    "korean_name": "Paperlogy-2Extra",
+    "english_name": "Paperlogy-2Extra",
+    "variants": [
+      {
+        "style": "Light ExtraLight",
+        "file": "Paperlogy-2ExtraLight.woff",
+        "ext": "woff"
+      }
+    ]
+  },
+  {
+    "family_id": "paperlogy3",
+    "korean_name": "Paperlogy-3",
+    "english_name": "Paperlogy-3",
+    "variants": [
+      {
+        "style": "Light",
+        "file": "Paperlogy-3Light.woff",
+        "ext": "woff"
+      }
+    ]
+  },
+  {
+    "family_id": "paperlogy4regular",
+    "korean_name": "Paperlogy-4Regular",
+    "english_name": "Paperlogy-4Regular",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Paperlogy-4Regular.woff",
+        "ext": "woff"
+      }
+    ]
+  },
+  {
+    "family_id": "paperlogy5",
+    "korean_name": "Paperlogy-5",
+    "english_name": "Paperlogy-5",
+    "variants": [
+      {
+        "style": "Medium",
+        "file": "Paperlogy-5Medium.woff",
+        "ext": "woff"
+      }
+    ]
+  },
+  {
+    "family_id": "paperlogy6semi",
+    "korean_name": "Paperlogy-6Semi",
+    "english_name": "Paperlogy-6Semi",
+    "variants": [
+      {
+        "style": "Bold SemiBold",
+        "file": "Paperlogy-6SemiBold.woff",
+        "ext": "woff"
+      }
+    ]
+  },
+  {
+    "family_id": "paperlogy7",
+    "korean_name": "Paperlogy-7",
+    "english_name": "Paperlogy-7",
+    "variants": [
+      {
+        "style": "Bold",
+        "file": "Paperlogy-7Bold.woff",
+        "ext": "woff"
+      }
+    ]
+  },
+  {
+    "family_id": "paperlogy8extra",
+    "korean_name": "Paperlogy-8Extra",
+    "english_name": "Paperlogy-8Extra",
+    "variants": [
+      {
+        "style": "Bold ExtraBold",
+        "file": "Paperlogy-8ExtraBold.woff",
+        "ext": "woff"
+      }
+    ]
+  },
+  {
+    "family_id": "paperlogy9",
+    "korean_name": "Paperlogy-9",
+    "english_name": "Paperlogy-9",
+    "variants": [
+      {
+        "style": "Black",
+        "file": "Paperlogy-9Black.woff",
+        "ext": "woff"
+      }
+    ]
+  },
+  {
+    "family_id": "partyletplain",
+    "korean_name": "PartyLET-plain",
+    "english_name": "PartyLET-plain",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "PartyLET-plain.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "plantagenetcherokee",
+    "korean_name": "PlantagenetCherokee",
+    "english_name": "PlantagenetCherokee",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "PlantagenetCherokee.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "residentevillarge",
+    "korean_name": "Resident_Evil_Large",
+    "english_name": "Resident_Evil_Large",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Resident_Evil_Large.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "residentevillarge-2",
+    "korean_name": "Resident_Evil_Large 2",
+    "english_name": "Resident_Evil_Large 2",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Resident_Evil_Large 2.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "sathu",
+    "korean_name": "Sathu",
+    "english_name": "Sathu",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Sathu.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "silom",
+    "korean_name": "Silom",
+    "english_name": "Silom",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Silom.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "skia",
+    "korean_name": "Skia",
+    "english_name": "Skia",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Skia.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixgeneral",
+    "korean_name": "STIXGeneral",
+    "english_name": "STIXGeneral",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXGeneral.otf",
+        "ext": "otf"
+      },
+      {
+        "style": "Italic",
+        "file": "STIXGeneralItalic.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixgeneralbol",
+    "korean_name": "STIXGeneralBol",
+    "english_name": "STIXGeneralBol",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXGeneralBol.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixgeneralbolita",
+    "korean_name": "STIXGeneralBolIta",
+    "english_name": "STIXGeneralBolIta",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXGeneralBolIta.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixintdbol",
+    "korean_name": "STIXIntDBol",
+    "english_name": "STIXIntDBol",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXIntDBol.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixintdreg",
+    "korean_name": "STIXIntDReg",
+    "english_name": "STIXIntDReg",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXIntDReg.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixintsmbol",
+    "korean_name": "STIXIntSmBol",
+    "english_name": "STIXIntSmBol",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXIntSmBol.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixintsmreg",
+    "korean_name": "STIXIntSmReg",
+    "english_name": "STIXIntSmReg",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXIntSmReg.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixintupbol",
+    "korean_name": "STIXIntUpBol",
+    "english_name": "STIXIntUpBol",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXIntUpBol.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixintupdbol",
+    "korean_name": "STIXIntUpDBol",
+    "english_name": "STIXIntUpDBol",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXIntUpDBol.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixintupdreg",
+    "korean_name": "STIXIntUpDReg",
+    "english_name": "STIXIntUpDReg",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXIntUpDReg.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixintupreg",
+    "korean_name": "STIXIntUpReg",
+    "english_name": "STIXIntUpReg",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXIntUpReg.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixintupsmbol",
+    "korean_name": "STIXIntUpSmBol",
+    "english_name": "STIXIntUpSmBol",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXIntUpSmBol.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixintupsmreg",
+    "korean_name": "STIXIntUpSmReg",
+    "english_name": "STIXIntUpSmReg",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXIntUpSmReg.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixnonuni",
+    "korean_name": "STIXNonUni",
+    "english_name": "STIXNonUni",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXNonUni.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixnonunibol",
+    "korean_name": "STIXNonUniBol",
+    "english_name": "STIXNonUniBol",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXNonUniBol.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixnonunibolita",
+    "korean_name": "STIXNonUniBolIta",
+    "english_name": "STIXNonUniBolIta",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXNonUniBolIta.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixnonuniita",
+    "korean_name": "STIXNonUniIta",
+    "english_name": "STIXNonUniIta",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXNonUniIta.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixsizfivesymreg",
+    "korean_name": "STIXSizFiveSymReg",
+    "english_name": "STIXSizFiveSymReg",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXSizFiveSymReg.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixsizfoursymbol",
+    "korean_name": "STIXSizFourSymBol",
+    "english_name": "STIXSizFourSymBol",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXSizFourSymBol.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixsizfoursymreg",
+    "korean_name": "STIXSizFourSymReg",
+    "english_name": "STIXSizFourSymReg",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXSizFourSymReg.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixsizonesymbol",
+    "korean_name": "STIXSizOneSymBol",
+    "english_name": "STIXSizOneSymBol",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXSizOneSymBol.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixsizonesymreg",
+    "korean_name": "STIXSizOneSymReg",
+    "english_name": "STIXSizOneSymReg",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXSizOneSymReg.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixsizthreesymbol",
+    "korean_name": "STIXSizThreeSymBol",
+    "english_name": "STIXSizThreeSymBol",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXSizThreeSymBol.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixsizthreesymreg",
+    "korean_name": "STIXSizThreeSymReg",
+    "english_name": "STIXSizThreeSymReg",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXSizThreeSymReg.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixsiztwosymbol",
+    "korean_name": "STIXSizTwoSymBol",
+    "english_name": "STIXSizTwoSymBol",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXSizTwoSymBol.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixsiztwosymreg",
+    "korean_name": "STIXSizTwoSymReg",
+    "english_name": "STIXSizTwoSymReg",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXSizTwoSymReg.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixtwomath",
+    "korean_name": "STIXTwoMath",
+    "english_name": "STIXTwoMath",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXTwoMath.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixtwotext",
+    "korean_name": "STIXTwoText-",
+    "english_name": "STIXTwoText-",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXTwoText.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Italic",
+        "file": "STIXTwoText-Italic.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixvar",
+    "korean_name": "STIXVar",
+    "english_name": "STIXVar",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXVar.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "stixvarbol",
+    "korean_name": "STIXVarBol",
+    "english_name": "STIXVarBol",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "STIXVarBol.otf",
+        "ext": "otf"
+      }
+    ]
+  },
+  {
+    "family_id": "tahoma",
+    "korean_name": "Tahoma",
+    "english_name": "Tahoma",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Tahoma.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Bold",
+        "file": "Tahoma Bold.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "theplaying",
+    "korean_name": "THEPlaying",
+    "english_name": "THEPlaying",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "THEPlaying.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "times-new-roman",
+    "korean_name": "Times New Roman",
+    "english_name": "Times New Roman",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Times New Roman.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Bold",
+        "file": "Times New Roman Bold.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Bold Italic",
+        "file": "Times New Roman Bold Italic.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Italic",
+        "file": "Times New Roman Italic.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "trattatello",
+    "korean_name": "Trattatello",
+    "english_name": "Trattatello",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Trattatello.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "trebuchet-ms",
+    "korean_name": "Trebuchet MS",
+    "english_name": "Trebuchet MS",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Trebuchet MS.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Bold",
+        "file": "Trebuchet MS Bold.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Bold Italic",
+        "file": "Trebuchet MS Bold Italic.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Italic",
+        "file": "Trebuchet MS Italic.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "tvn-enjoystories",
+    "korean_name": "tvN Enjoystories",
+    "english_name": "tvN Enjoystories",
+    "variants": [
+      {
+        "style": "Bold",
+        "file": "tvN Enjoystories Bold.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Light",
+        "file": "tvN Enjoystories Light.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Medium",
+        "file": "tvN Enjoystories Medium.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "verdana",
+    "korean_name": "Verdana",
+    "english_name": "Verdana",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Verdana.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Bold",
+        "file": "Verdana Bold.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Bold Italic",
+        "file": "Verdana Bold Italic.ttf",
+        "ext": "ttf"
+      },
+      {
+        "style": "Italic",
+        "file": "Verdana Italic.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "vitro-core",
+    "korean_name": "VITRO CORE",
+    "english_name": "VITRO CORE",
+    "variants": [
+      {
+        "style": "OTF",
+        "file": "VITRO CORE OTF.otf",
+        "ext": "otf"
+      },
+      {
+        "style": "ttf",
+        "file": "VITRO CORE TTF.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "vitro-inspire",
+    "korean_name": "VITRO INSPIRE",
+    "english_name": "VITRO INSPIRE",
+    "variants": [
+      {
+        "style": "OTF",
+        "file": "VITRO INSPIRE OTF.otf",
+        "ext": "otf"
+      },
+      {
+        "style": "ttf",
+        "file": "VITRO INSPIRE TTF.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "vitro-pride",
+    "korean_name": "VITRO PRIDE",
+    "english_name": "VITRO PRIDE",
+    "variants": [
+      {
+        "style": "OTF",
+        "file": "VITRO PRIDE OTF.otf",
+        "ext": "otf"
+      },
+      {
+        "style": "ttf",
+        "file": "VITRO PRIDE TTF.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "waltdisney-font",
+    "korean_name": "WaltDisney Font",
+    "english_name": "WaltDisney Font",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "WaltDisney Font.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "webdings",
+    "korean_name": "Webdings",
+    "english_name": "Webdings",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Webdings.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "wigglehangeul",
+    "korean_name": "wiggle-hangeul",
+    "english_name": "wiggle-hangeul",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "wiggle-hangeul.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "wingdings",
+    "korean_name": "윙딩스",
+    "english_name": "Wingdings",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Wingdings.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "wingdings-2",
+    "korean_name": "Wingdings 2",
+    "english_name": "Wingdings 2",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Wingdings 2.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "wingdings-3",
+    "korean_name": "Wingdings 3",
+    "english_name": "Wingdings 3",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Wingdings 3.ttf",
+        "ext": "ttf"
+      }
+    ]
+  },
+  {
+    "family_id": "zapfino",
+    "korean_name": "Zapfino",
+    "english_name": "Zapfino",
+    "variants": [
+      {
+        "style": "Regular",
+        "file": "Zapfino.ttf",
+        "ext": "ttf"
+      }
+    ]
+  }
+]
