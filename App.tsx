@@ -168,7 +168,7 @@ const App: React.FC = () => {
           window.removeEventListener('keyup', handleKeyUp);
           window.removeEventListener('paste', handlePaste);
       };
-  }, [selectedId, handleUndo, handleRedo, saveHistory, isSpacePressed, handleAddImage]); // Dependencies for the effect
+  }, [selectedId, handleUndo, handleRedo, saveHistory, isSpacePressed, zCounter, canvasSize.width, blocks, canvasSize]); // Dependencies for the effect
 
 
   const handleZoomChange = useCallback((deltaY: number) => {
@@ -206,7 +206,8 @@ const App: React.FC = () => {
   const handleAddImage = useCallback((src: string) => {
     const img = new Image();
     img.onload = () => {
-      saveHistory();
+      setPast(prev => [...prev, { blocks, canvasSize, zCounter }]);
+      setFuture([]);
       const newZIndex = zCounter + 1;
       const maxWidth = canvasSize.width * 0.5;
       const newBlock: ContentBlock = {
@@ -225,7 +226,7 @@ const App: React.FC = () => {
       setIsCanvasSettingsOpen(false);
     };
     img.src = src;
-  }, [zCounter, canvasSize.width, saveHistory]);
+  }, [zCounter, canvasSize.width, blocks, canvasSize]);
   
   const handleUpdateBlock = useCallback((id: string, newProps: Partial<ContentBlock>) => {
     setBlocks(prev => prev.map(block => {
