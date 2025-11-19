@@ -550,9 +550,14 @@ const App: React.FC = () => {
   const handleExport = async (format: 'png' | 'jpg') => {
     setIsExportModalOpen(false);
     setSelectedId(null); // Hide outlines before capture
-    await new Promise(resolve => setTimeout(resolve, 100)); // allow UI to update
 
     try {
+        // 폰트가 로드될 때까지 대기
+        await document.fonts.ready;
+
+        // 추가 대기 시간 - 폰트가 완전히 적용되도록
+        await new Promise(resolve => setTimeout(resolve, 500));
+
         // 고해상도를 위한 스케일 설정
         const scale = 2; // 2배 해상도로 렌더링
 
@@ -584,9 +589,24 @@ const App: React.FC = () => {
         for (const block of sortedBlocks) {
             if (block.type === 'text') {
                 ctx.save();
-                // 폰트 렌더링 품질 개선
-                ctx.textRendering = 'optimizeLegibility';
-                ctx.font = `${block.fontWeight || 'normal'} ${block.fontSize}px '${block.fontFamily}', sans-serif`;
+
+                const fontFamily = block.fontFamily;
+                const fontSize = block.fontSize;
+
+                // 폰트 설정 - weight는 폰트 패밀리 이름에 이미 포함되어 있으므로 제거
+                const fontString = `${fontSize}px "${fontFamily}"`;
+
+                // 폰트 체크 및 로드 시도
+                try {
+                    if (!document.fonts.check(fontString)) {
+                        await document.fonts.load(fontString);
+                    }
+                } catch (e) {
+                    console.warn(`Failed to load font: ${fontFamily}`, e);
+                }
+
+                // 폰트 설정
+                ctx.font = `${fontString}, sans-serif`;
                 ctx.fillStyle = block.color;
                 ctx.textAlign = block.textAlign as CanvasTextAlign;
                 ctx.textBaseline = block.verticalAlign === 'middle' ? 'middle' : block.verticalAlign === 'bottom' ? 'bottom' : 'top';
@@ -849,7 +869,7 @@ const App: React.FC = () => {
                   }
                 }}
                 placeholder={selectedBlock?.type === 'text' ? '' : '텍스트 블록을 선택하고 내용을 입력하세요...'}
-                className="w-full bg-gray-50/50 text-gray-800 placeholder-gray-400 px-5 py-3.5 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-400 focus:bg-white text-sm resize-none transition-all duration-200 font-medium"
+                className="w-full bg-gray-50/50 text-gray-800 placeholder-gray-400 px-5 py-3.5 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-400 focus:bg-white text-sm resize-none transition-all duration-200 font-medium border-2 border-gray-300 hover:border-gray-400"
                 rows={1}
                 style={{
                   minHeight: '48px',
