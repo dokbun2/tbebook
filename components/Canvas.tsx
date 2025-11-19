@@ -196,7 +196,8 @@ const Canvas = forwardRef<HTMLDivElement, CanvasProps>(({
                     <img
                     src={block.src}
                     alt="user content"
-                    className="w-full h-full object-contain pointer-events-none"
+                    className="w-full h-full pointer-events-none"
+                    style={{ objectFit: 'fill' }}
                     />
                     {isSelected && renderHandles(block.id)}
                 </div>
