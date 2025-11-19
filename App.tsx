@@ -138,13 +138,37 @@ const App: React.FC = () => {
           }
       };
 
+      const handlePaste = (e: ClipboardEvent) => {
+          const items = e.clipboardData?.items;
+          if (!items) return;
+
+          for (let i = 0; i < items.length; i++) {
+              if (items[i].type.startsWith('image/')) {
+                  e.preventDefault();
+                  const blob = items[i].getAsFile();
+                  if (blob) {
+                      const reader = new FileReader();
+                      reader.onload = (ev) => {
+                          if (typeof ev.target?.result === 'string') {
+                              handleAddImage(ev.target.result);
+                          }
+                      };
+                      reader.readAsDataURL(blob);
+                  }
+                  break;
+              }
+          }
+      };
+
       window.addEventListener('keydown', handleKeyDown);
       window.addEventListener('keyup', handleKeyUp);
+      window.addEventListener('paste', handlePaste);
       return () => {
           window.removeEventListener('keydown', handleKeyDown);
           window.removeEventListener('keyup', handleKeyUp);
+          window.removeEventListener('paste', handlePaste);
       };
-  }, [selectedId, handleUndo, handleRedo, saveHistory, isSpacePressed]); // Dependencies for the effect
+  }, [selectedId, handleUndo, handleRedo, saveHistory, isSpacePressed, handleAddImage]); // Dependencies for the effect
 
 
   const handleZoomChange = useCallback((deltaY: number) => {
