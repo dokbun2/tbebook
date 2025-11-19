@@ -17,6 +17,7 @@ interface CanvasProps {
   onResizeMouseDown: (e: React.MouseEvent<HTMLDivElement> | React.TouchEvent<HTMLDivElement>, id: string, handle: string) => void;
   isSpacePressed: boolean;
   canvasPan: { x: number; y: number };
+  snapLines: { x: number[], y: number[] };
 }
 
 const ResizeHandle: React.FC<{
@@ -47,6 +48,7 @@ const Canvas = forwardRef<HTMLDivElement, CanvasProps>(({
   onResizeMouseDown,
   isSpacePressed,
   canvasPan,
+  snapLines,
 }, ref) => {
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -118,11 +120,13 @@ const Canvas = forwardRef<HTMLDivElement, CanvasProps>(({
       >
         <div
             ref={ref}
-            className="relative bg-white shadow-2xl origin-top-left"
+            id="export-canvas"
+            className="relative bg-white origin-top-left"
             style={{
                 width: `${canvasSize.width}px`,
                 height: `${canvasSize.height}px`,
-                transform: `scale(${zoom})`
+                transform: `scale(${zoom})`,
+                boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.25)'
             }}
             onClick={(e) => e.stopPropagation()}
         >
@@ -192,7 +196,7 @@ const Canvas = forwardRef<HTMLDivElement, CanvasProps>(({
                     <img
                     src={block.src}
                     alt="user content"
-                    className="w-full h-full object-cover pointer-events-none"
+                    className="w-full h-full object-contain pointer-events-none"
                     />
                     {isSelected && renderHandles(block.id)}
                 </div>
@@ -201,6 +205,34 @@ const Canvas = forwardRef<HTMLDivElement, CanvasProps>(({
 
             return null;
             })}
+
+            {/* 스냅 라인 렌더링 */}
+            {snapLines.x.map((x, index) => (
+              <div
+                key={`snap-x-${index}`}
+                className="absolute bg-blue-500 opacity-50 pointer-events-none"
+                style={{
+                  left: `${x}px`,
+                  top: 0,
+                  width: '1px',
+                  height: `${canvasSize.height}px`,
+                  zIndex: 9999
+                }}
+              />
+            ))}
+            {snapLines.y.map((y, index) => (
+              <div
+                key={`snap-y-${index}`}
+                className="absolute bg-blue-500 opacity-50 pointer-events-none"
+                style={{
+                  left: 0,
+                  top: `${y}px`,
+                  width: `${canvasSize.width}px`,
+                  height: '1px',
+                  zIndex: 9999
+                }}
+              />
+            ))}
         </div>
       </div>
     </div>

@@ -9,6 +9,8 @@ import { TextIcon, ImageIcon, SaveIcon, UploadIcon, CameraIcon, SettingsIcon, Un
 
 // @ts-ignore
 const html2canvas = window.html2canvas;
+// @ts-ignore
+const domtoimage = window.domtoimage;
 
 interface AppState {
     blocks: ContentBlock[];
@@ -59,6 +61,7 @@ const App: React.FC = () => {
     originalPanX: number;
     originalPanY: number;
   } | null>(null);
+  const [snapLines, setSnapLines] = useState<{ x: number[], y: number[] }>({ x: [], y: [] });
 
   // --- History Management ---
   const saveHistory = useCallback(() => {
@@ -103,6 +106,25 @@ const App: React.FC = () => {
           if (e.code === 'Space' && !isTyping && !isSpacePressed) {
               e.preventDefault();
               setIsSpacePressed(true);
+          }
+
+          // Arrow keys for moving selected block
+          if (['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.key) && selectedId && !isTyping) {
+              e.preventDefault();
+              const selectedBlock = blocks.find(b => b.id === selectedId);
+              if (selectedBlock) {
+                  saveHistory();
+                  const step = e.shiftKey ? 10 : 1; // Shift + arrow for larger movement
+                  let newX = selectedBlock.x;
+                  let newY = selectedBlock.y;
+
+                  if (e.key === 'ArrowLeft') newX -= step;
+                  if (e.key === 'ArrowRight') newX += step;
+                  if (e.key === 'ArrowUp') newY -= step;
+                  if (e.key === 'ArrowDown') newY += step;
+
+                  handleUpdateBlock(selectedId, { x: newX, y: newY });
+              }
           }
 
           // Check for Delete key
@@ -323,6 +345,49 @@ const App: React.FC = () => {
     }
     const { clientX, clientY } = getClientCoords(e);
 
+    // 스냅 기능을 위한 헬퍼 함수
+    const snapToGrid = (value: number, isX: boolean, snapThreshold: number = 10) => {
+      const snapPoints: number[] = [];
+      const activeSnapLines: number[] = [];
+
+      // 캔버스 가장자리 추가
+      if (isX) {
+        snapPoints.push(0, canvasSize.width);
+      } else {
+        snapPoints.push(0, canvasSize.height);
+      }
+
+      // 다른 블록들의 가장자리 추가
+      blocks.forEach(block => {
+        if (draggingState && block.id === draggingState.id) return;
+        if (resizingState && block.id === resizingState.id) return;
+
+        if (isX) {
+          snapPoints.push(block.x, block.x + block.width);
+        } else {
+          snapPoints.push(block.y, block.y + block.height);
+        }
+      });
+
+      // 가장 가까운 스냅 포인트 찾기
+      let snappedValue = value;
+      for (const point of snapPoints) {
+        if (Math.abs(value - point) < snapThreshold) {
+          snappedValue = point;
+          activeSnapLines.push(point);
+        }
+      }
+
+      // 스냅 라인 업데이트
+      if (isX) {
+        setSnapLines(prev => ({ ...prev, x: activeSnapLines }));
+      } else {
+        setSnapLines(prev => ({ ...prev, y: activeSnapLines }));
+      }
+
+      return snappedValue;
+    };
+
     if (panningState) {
       const dx = clientX - panningState.startX;
       const dy = clientY - panningState.startY;
@@ -333,10 +398,33 @@ const App: React.FC = () => {
     } else if (draggingState) {
       const dx = (clientX - draggingState.startX) / zoom;
       const dy = (clientY - draggingState.startY) / zoom;
-      handleUpdateBlock(draggingState.id, {
-          x: draggingState.originalX + dx,
-          y: draggingState.originalY + dy
-      });
+      let newX = draggingState.originalX + dx;
+      let newY = draggingState.originalY + dy;
+
+      // 드래그 시 스냅
+      const block = blocks.find(b => b.id === draggingState.id);
+      if (block) {
+        const snappedLeftX = snapToGrid(newX, true);
+        const snappedRightX = snapToGrid(newX + block.width, true);
+        const snappedTopY = snapToGrid(newY, false);
+        const snappedBottomY = snapToGrid(newY + block.height, false);
+
+        // 왼쪽 또는 오른쪽 가장자리 중 더 가까운 쪽으로 스냅
+        if (Math.abs(newX - snappedLeftX) < Math.abs(newX + block.width - snappedRightX)) {
+          newX = snappedLeftX;
+        } else {
+          newX = snappedRightX - block.width;
+        }
+
+        // 위쪽 또는 아래쪽 가장자리 중 더 가까운 쪽으로 스냅
+        if (Math.abs(newY - snappedTopY) < Math.abs(newY + block.height - snappedBottomY)) {
+          newY = snappedTopY;
+        } else {
+          newY = snappedBottomY - block.height;
+        }
+      }
+
+      handleUpdateBlock(draggingState.id, { x: newX, y: newY });
     } else if (resizingState) {
       const { id, handle, startX, startY, originalRect } = resizingState;
       const dx = (clientX - startX) / zoom;
@@ -358,6 +446,25 @@ const App: React.FC = () => {
         newHeight = MIN_DIMENSION;
         if (handle.includes('top')) newY = originalRect.y + originalRect.height - MIN_DIMENSION;
       }
+
+      // 리사이즈 시 스냅
+      if (handle.includes('left')) {
+        newX = snapToGrid(newX, true);
+        newWidth = originalRect.x + originalRect.width - newX;
+      }
+      if (handle.includes('right')) {
+        const snappedRight = snapToGrid(newX + newWidth, true);
+        newWidth = snappedRight - newX;
+      }
+      if (handle.includes('top')) {
+        newY = snapToGrid(newY, false);
+        newHeight = originalRect.y + originalRect.height - newY;
+      }
+      if (handle.includes('bottom')) {
+        const snappedBottom = snapToGrid(newY + newHeight, false);
+        newHeight = snappedBottom - newY;
+      }
+
       handleUpdateBlock(id, { x: newX, y: newY, width: newWidth, height: newHeight });
     }
   };
@@ -370,6 +477,7 @@ const App: React.FC = () => {
     setDraggingState(null);
     setResizingState(null);
     setPanningState(null);
+    setSnapLines({ x: [], y: [] }); // 스냅 라인 숨기기
   };
 
   const handleCanvasMouseDown = (e: React.MouseEvent<HTMLDivElement> | React.TouchEvent<HTMLDivElement>) => {
@@ -442,25 +550,103 @@ const App: React.FC = () => {
   const handleExport = async (format: 'png' | 'jpg') => {
     setIsExportModalOpen(false);
     setSelectedId(null); // Hide outlines before capture
-    await new Promise(resolve => setTimeout(resolve, 50)); // allow UI to update
+    await new Promise(resolve => setTimeout(resolve, 100)); // allow UI to update
 
-    if(canvasRef.current && html2canvas) {
-        try {
-            const captureScale = 2 / zoom;
-            const canvas = await html2canvas(canvasRef.current, { 
-                useCORS: true, 
-                backgroundColor: '#ffffff',
-                scale: captureScale, 
-            });
-            const image = canvas.toDataURL(`image/${format}`, format === 'jpg' ? 0.9 : 1.0);
-            const link = document.createElement('a');
-            link.download = `my-page.${format}`;
-            link.href = image;
-            link.click();
-        } catch (error) {
-            console.error("Image export failed:", error);
-            alert('이미지를 내보내는 데 실패했습니다.');
+    try {
+        // 고해상도를 위한 스케일 설정
+        const scale = 2; // 2배 해상도로 렌더링
+
+        // 캔버스 생성
+        const canvas = document.createElement('canvas');
+        canvas.width = canvasSize.width * scale;
+        canvas.height = canvasSize.height * scale;
+        const ctx = canvas.getContext('2d');
+
+        if (!ctx) {
+            throw new Error('Canvas context not available');
         }
+
+        // 스케일 적용
+        ctx.scale(scale, scale);
+
+        // 안티앨리어싱 설정
+        ctx.imageSmoothingEnabled = true;
+        ctx.imageSmoothingQuality = 'high';
+
+        // 배경 그리기
+        ctx.fillStyle = '#ffffff';
+        ctx.fillRect(0, 0, canvasSize.width, canvasSize.height);
+
+        // 블록들을 z-index 순서로 정렬
+        const sortedBlocks = [...blocks].sort((a, b) => a.zIndex - b.zIndex);
+
+        // 각 블록 그리기
+        for (const block of sortedBlocks) {
+            if (block.type === 'text') {
+                ctx.save();
+                // 폰트 렌더링 품질 개선
+                ctx.textRendering = 'optimizeLegibility';
+                ctx.font = `${block.fontWeight || 'normal'} ${block.fontSize}px '${block.fontFamily}', sans-serif`;
+                ctx.fillStyle = block.color;
+                ctx.textAlign = block.textAlign as CanvasTextAlign;
+                ctx.textBaseline = block.verticalAlign === 'middle' ? 'middle' : block.verticalAlign === 'bottom' ? 'bottom' : 'top';
+
+                // 텍스트 줄바꿈 처리
+                const lines = block.text.split('\n');
+                const lineHeight = block.fontSize * 1.2;
+                let y = block.y;
+
+                if (block.verticalAlign === 'middle') {
+                    y = block.y + block.height / 2 - (lines.length - 1) * lineHeight / 2;
+                } else if (block.verticalAlign === 'bottom') {
+                    y = block.y + block.height - (lines.length - 1) * lineHeight;
+                } else {
+                    y = block.y + block.fontSize;
+                }
+
+                for (let i = 0; i < lines.length; i++) {
+                    let x = block.x;
+                    if (block.textAlign === 'center') {
+                        x = block.x + block.width / 2;
+                    } else if (block.textAlign === 'right') {
+                        x = block.x + block.width;
+                    } else {
+                        x = block.x + 5; // 왼쪽 패딩 추가
+                    }
+                    ctx.fillText(lines[i], x, y + i * lineHeight);
+                }
+                ctx.restore();
+            } else if (block.type === 'image') {
+                // 이미지 그리기
+                const img = new Image();
+                img.crossOrigin = 'anonymous';
+                await new Promise((resolve, reject) => {
+                    img.onload = resolve;
+                    img.onerror = reject;
+                    img.src = block.src;
+                });
+
+                ctx.save();
+                if (block.borderRadius > 0) {
+                    // 둥근 모서리 처리
+                    ctx.beginPath();
+                    ctx.roundRect(block.x, block.y, block.width, block.height, block.borderRadius);
+                    ctx.clip();
+                }
+                ctx.drawImage(img, block.x, block.y, block.width, block.height);
+                ctx.restore();
+            }
+        }
+
+        // 캔버스를 이미지로 변환 (고품질)
+        const dataUrl = canvas.toDataURL(`image/${format}`, format === 'jpg' ? 0.95 : 1.0);
+        const link = document.createElement('a');
+        link.download = `my-page.${format}`;
+        link.href = dataUrl;
+        link.click();
+    } catch (error) {
+        console.error("Export failed:", error);
+        alert('이미지를 내보내는 데 실패했습니다.');
     }
   };
   
@@ -592,6 +778,7 @@ const App: React.FC = () => {
             onResizeMouseDown={handleResizeMouseDown}
             isSpacePressed={isSpacePressed}
             canvasPan={canvasPan}
+            snapLines={snapLines}
           />
         </div>
       </div>
